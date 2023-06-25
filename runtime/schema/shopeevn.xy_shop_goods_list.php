@@ -1,0 +1,120 @@
+<?php 
+return array (
+  'id' => 
+  array (
+    'name' => 'id',
+    'type' => 'int(11)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => true,
+    'autoinc' => true,
+  ),
+  'shop_name' => 
+  array (
+    'name' => 'shop_name',
+    'type' => 'varchar(255)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'en_shop_name' => 
+  array (
+    'name' => 'en_shop_name',
+    'type' => 'varchar(255)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'goods_name' => 
+  array (
+    'name' => 'goods_name',
+    'type' => 'varchar(255)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'en_goods_name' => 
+  array (
+    'name' => 'en_goods_name',
+    'type' => 'varchar(255)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'goods_info' => 
+  array (
+    'name' => 'goods_info',
+    'type' => 'varchar(5000)',
+    'notnull' => false,
+    'default' => '',
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'en_goods_info' => 
+  array (
+    'name' => 'en_goods_info',
+    'type' => 'varchar(255)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'goods_price' => 
+  array (
+    'name' => 'goods_price',
+    'type' => 'decimal(10,2)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'goods_pic' => 
+  array (
+    'name' => 'goods_pic',
+    'type' => 'varchar(120)',
+    'notnull' => false,
+    'default' => '',
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'addtime' => 
+  array (
+    'name' => 'addtime',
+    'type' => 'int(10)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'status' => 
+  array (
+    'name' => 'status',
+    'type' => 'int(1)',
+    'notnull' => false,
+    'default' => '0',
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'cid' => 
+  array (
+    'name' => 'cid',
+    'type' => 'int(11)',
+    'notnull' => false,
+    'default' => '1',
+    'primary' => false,
+    'autoinc' => false,
+  ),
+  'is_tj' => 
+  array (
+    'name' => 'is_tj',
+    'type' => 'int(11)',
+    'notnull' => false,
+    'default' => NULL,
+    'primary' => false,
+    'autoinc' => false,
+  ),
+);
